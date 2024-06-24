@@ -149,7 +149,7 @@ vars:
 In order to convert `vars` to `replacements`, we have to:
  1. Replace every instance of $(SOME_SECRET_NAME) with any arbitrary placeholder value.
  2. Convert the vars `objref` field to a [replacements] `source` field.
- 3. Replace the vars `name` fied with a [replacements] `targets` field that points to
+ 3. Replace the vars `name` field with a [replacements] `targets` field that points to
 every instance of the placeholder value in step 1.
 
 In our simple example here, this would look like the following:
